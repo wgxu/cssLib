@@ -1,0 +1,9 @@
+/*清除浮动*/
+%clearfix {
+  &:after {
+    display: block;
+    content: '';
+    clear: both;
+    height:0;
+  }
+}

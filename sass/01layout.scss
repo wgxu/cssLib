@@ -1,0 +1,90 @@
+@import "../extend/_%";
+@import '../extend/_fun';
+@import '../extend/_mixin';
+
+.container {
+  & {
+    display: block;
+    padding: 15rpx 20rpx;
+  }
+  &:after {
+    @extend %clearfix;
+  }
+}
+.full-container {
+  & {
+    display: block;
+    background-color: #f1f2f7;
+  }
+  &:after {
+    @extend %clearfix;
+  }
+
+}
+.row {
+  & {
+    padding: 15px;
+    display: block;
+  }
+  &:after {
+    @extend %clearfix;
+  }
+
+}
+
+.full-row {
+  & {
+    display: block;
+  }
+  &:after {
+    @extend %clearfix;
+  }
+}
+.block-1 {
+  float: left;
+  width: 1/12 * 100%;
+}
+.block-2 {
+  float: left;
+  width: 2/12 * 100%;
+}
+.block-3 {
+  float: left;
+  width: 3/12 * 100%;
+}
+.block-4 {
+  float: left;
+  width: 4/12 * 100%;
+}
+.block-5 {
+  float: left;
+  width: 5/12 * 100%;
+}
+.block-6 {
+  float: left;
+  width: 6/12 * 100%;
+}
+.block-7 {
+  float: left;
+  width: 7/12 * 100%;
+}
+.block-8 {
+  float: left;
+  width: 8/12 * 100%;
+}
+.block-9 {
+  float: left;
+  width: 9/12 * 100%;
+}
+.block-10 {
+  float: left;
+  width: 10/12 * 100%;
+}
+.block-11 {
+  float: left;
+  width: 11/12 * 100%;
+}
+.block-12 {
+  float: left;
+  width: 12/12 * 100%;
+}

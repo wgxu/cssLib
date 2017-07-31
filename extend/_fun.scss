@@ -1,0 +1,6 @@
+@import "../style_config";
+
+//获取实际px
+@function getPx($px) {
+   @return $px*$tartgetWidth / $psdWidth;
+}

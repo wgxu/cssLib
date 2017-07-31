@@ -1,0 +1,14 @@
+/*透明*/
+@mixin opacity ($opacity:1){
+    opacity: $opacity;
+    filter: opacity($opacity*100);
+}
+/*设置背景图*/
+@mixin setBgImg($url) {
+    background: url($url) no-repeat center center;
+    background-size: 100% 100%;
+}
+/*清楚margin*/
+@mixin clearmargin($direct: 'left') {
+    margin-#{$direct}: 0;
+}
